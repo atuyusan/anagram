@@ -1,0 +1,87 @@
+body {
+}
+
+.container {
+  width: 500px;
+  margin: 50px auto;
+}
+
+#title {
+  height: 50px;
+  font-size: 100px;
+  margin-top: 100px;
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0.8, 1.2);
+  letter-spacing: -15px;  
+}
+
+#input-area {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; /*左右中央寄せ*/
+  align-items: center;     /*上下中央寄せ*/
+  margin-top: 100px;
+}
+
+#input-area > * {
+  height: 30px;
+  border-width: 0px;
+}
+
+#name, #name:focus {
+  width: 300px;
+  margin-right: 20px;
+  font-size: 20px;
+  border-bottom: 1px solid black;
+}
+
+#name:focus {
+  outline: 0;  // fucus時の枠線を消す
+}
+
+#btn, #btn:hover {
+  width: 80px;
+  cursor: pointer;
+  display: flex;
+    justify-content: center;
+  align-items: center;
+}
+
+#btn {
+  color: #ff4500;
+  border: 2px solid #ff4500;  
+  }
+
+#btn:hover {
+  background: #ff4500;
+  color: #fff;
+}
+
+#triangle {
+  width: 0px;
+  height: 0px;
+  border: 30px solid black;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  margin: auto;
+}
+
+
+#output {
+  width: 370px;
+  height: 30px;
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+}
+
+.hidden {
+  display: none;
+}
